@@ -690,15 +690,6 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 
-# GNSS configs
-vendor/etc/apdr.conf
-vendor/etc/flp.conf
-vendor/etc/gps.conf
-vendor/etc/izat.conf
-vendor/etc/lowi.conf
-vendor/etc/sap.conf
-vendor/etc/xtwifi.conf
-
 # IMS - from sake - 31.1010.0410.43
 product/priv-app/ims/ims.apk|1ad396eb63e145a636309de191cd267251b6ce6a
 
