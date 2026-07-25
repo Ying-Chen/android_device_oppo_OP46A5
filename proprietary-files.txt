@@ -803,9 +803,6 @@ vendor/etc/system_properties.xml
 vendor/bin/mlid
 vendor/lib64/libminksocket.so
 
-# Motor
-vendor/etc/init/hw/init.oppo.vendor.motor.rc
-
 # Neural networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
 vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
