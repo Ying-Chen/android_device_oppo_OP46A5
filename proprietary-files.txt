@@ -190,6 +190,7 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so
+vendor/lib64/vendor.qti.latency@2.0.so
 
 # Camera
 vendor/lib/hw/camera.qcom.so
@@ -496,6 +497,7 @@ vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
 # DRM (OEM Crypto API)
+vendor/lib/libminkdescriptor.so
 vendor/lib64/libminkdescriptor.so
 
 # DRM (widevine)
@@ -841,6 +843,7 @@ vendor/etc/system_properties.xml
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
+vendor/lib/libminksocket.so
 vendor/lib64/libminksocket.so
 
 # Neural networks
@@ -1165,7 +1168,6 @@ lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib/libwfdavenhancements.so
 lib/libwfdmmsrc_system.so
 lib/libwfdservice.so
-product/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 lib64/libmmrtpdecoder.so
 lib64/libmmrtpencoder.so
 lib64/libwfdclient.so
@@ -1186,6 +1188,10 @@ vendor/bin/wifidisplayhalservice
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/etc/wfdconfig.xml
 vendor/lib/libFileMux_proprietary.so
+vendor/lib/libOmxMux_proprietary.so
+vendor/lib/libdisplayconfig.so
+vendor/lib/libmmosal_proprietary.so
+vendor/lib/libmmparser_lite_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 vendor/lib/libwfdcodecv4l2_proprietary.so
@@ -1199,6 +1205,7 @@ vendor/lib/libwfdmmsrc_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/libwfdrtsp_proprietary.so
 vendor/lib/libwfdsessionmodule.so
+vendor/lib/libwfdsm_proprietary.so
 vendor/lib/libwfdsourcesession_proprietary.so
 vendor/lib/libwfdsourcesm_proprietary.so
 vendor/lib/libwfduibcinterface_proprietary.so
