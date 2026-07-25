@@ -151,20 +151,20 @@ vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml
-vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml
-vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml
-vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml
-vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml
-vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml
-vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile17.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile18.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile19.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile20.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile21.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile32.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml
+vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml
@@ -555,23 +555,6 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so|17e86e9a2054db733d955fcf1066f6e06a44f
 
 # Fingerprint
 vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
-#odm/lib/hw/fingerprint.goodix_G2.default.so
-#odm/lib/hw/fingerprint.goodix_G3.default.so
-#odm/lib/hw/fingerprint.goodix_G5.default.so
-#odm/lib/hw/fingerprint.goodix_G6.default.so
-#odm/lib/libgf_hal_G2.so
-#odm/lib/libgf_hal_G3.so
-#odm/lib/libgf_hal_G5.so
-#odm/lib/libgf_hal_G6.so
-#odm/lib64/hw/fingerprint.goodix_G2.default.so
-#odm/lib64/hw/fingerprint.goodix_G3.default.so
-#odm/lib64/hw/fingerprint.goodix_G5.default.so
-#odm/lib64/hw/fingerprint.goodix_G6.default.so
-#odm/lib64/libgf_hal_G2.so
-#odm/lib64/libgf_hal_G3.so
-#odm/lib64/libgf_hal_G5.so
-#odm/lib64/libgf_hal_G6.so
-#vendor/lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
 vendor/bin/qfp-daemon
 vendor/lib/vendor.oppo.hardware.commondcs@1.0.so
 vendor/lib64/libqfp-service.so
@@ -619,15 +602,6 @@ vendor/firmware/fastchg/18085/oppo_vooc_fw_n76e.bin
 vendor/firmware/tp/18081/FW_S3706_SAMSUNG.img
 vendor/firmware/tp/18081/FW_S3706_SAMSUNG_FAE.img
 vendor/firmware/tp/18081/LIMIT_S3706_SAMSUNG.img
-#odm/vendor/firmware/goodixfp.b00
-#odm/vendor/firmware/goodixfp.b01
-#odm/vendor/firmware/goodixfp.b02
-#odm/vendor/firmware/goodixfp.b03
-#odm/vendor/firmware/goodixfp.b04
-#odm/vendor/firmware/goodixfp.b05
-#odm/vendor/firmware/goodixfp.b06
-#odm/vendor/firmware/goodixfp.b07
-#odm/vendor/firmware/goodixfp.mdt
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -722,16 +696,16 @@ vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
-vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
+vendor/lib64/vendor.qti.gnss@3.0.so
 
 # GNSS configs
-vendor/etc/gps.conf
-vendor/etc/izat.conf
-vendor/etc/sap.conf
 vendor/etc/apdr.conf
 vendor/etc/flp.conf
+vendor/etc/gps.conf
+vendor/etc/izat.conf
 vendor/etc/lowi.conf
+vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
 
 # IMS - from sake - 31.1010.0410.43
@@ -814,7 +788,6 @@ lib/libmmosal.so
 lib64/libmmosal.so
 
 # Media configs
-vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_performance.xml
 vendor/etc/media_codecs_performance_v1.xml
@@ -822,6 +795,7 @@ vendor/etc/media_codecs_vendor.xml
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_codecs_vendor_v1.xml
 vendor/etc/media_profiles.xml
+vendor/etc/media_profiles_V1_0.xml
 vendor/etc/media_profiles_vendor.xml
 vendor/etc/system_properties.xml
 
@@ -1104,8 +1078,8 @@ vendor/etc/sensors/config/tsl2540_0.json
 vendor/etc/sensors/sns_reg_config
 
 # Thermal engine
--vendor/lib64/libthermalclient.so
 vendor/bin/thermal-engine
+-vendor/lib64/libthermalclient.so
 
 # Thermal config
 vendor/etc/thermal-engine.conf
@@ -1146,10 +1120,10 @@ vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 
 # WiFi Display
-framework/WfdCommon.jar
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfigsink.xml
+framework/WfdCommon.jar
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib/libwfdavenhancements.so
 lib/libwfdmmsrc_system.so
