@@ -810,8 +810,8 @@ vendor/lib/modules/rdbg.ko
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
