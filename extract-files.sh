@@ -63,6 +63,12 @@ function blob_fixup() {
 		"${PATCHELF}" --replace-needed "libprotobuf-cpp-full.so" "libprotobuf-cpp-full-v29.so" "${2}"
 	    "${PATCHELF}" --replace-needed "libsnsapi.so" "libsnsapi-v29.so" "${2}"
 		;;
+		vendor/lib64/libgf_hal_G2.so | vendor/lib64/libgf_hal_G3.so | \
+		vendor/lib64/libgf_hal_G5.so | vendor/lib64/libsl_fp_impl.so | \
+		vendor/lib64/libsl_fp_impl_16bit.so )
+		    sed -i "s|data/vendor/euclid/version/vendor/firmware|vendor/firmware\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
+		    sed -i "s|oppo_version/vendor/firmware|vendor/firmware\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00|g" "${2}"
+		;;
 	esac
 }
 
