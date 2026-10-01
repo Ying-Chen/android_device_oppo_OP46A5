@@ -58,7 +58,7 @@ vendor/lib64/libaudcal.so
 vendor/lib64/libqtigef.so
 
 # Audio firmware
-vendor/firmware/tfa98xx_18085.cnt
+vendor/firmware/tfa98xx_18085.cnt:vendor/firmware/tfa98xx.cnt
 vendor/firmware/dbmd4_va_fw.bin
 
 # Audio soundtrigger
